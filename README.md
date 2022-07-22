@@ -11,6 +11,6 @@ https://www.virustotal.com/gui/file/099c7c8550492af564d1a57ca7c3debdf362c55a48dd
 When your daemon isnt loading and ur net is crashed, execute that command
     $ sudo nano /etc/resolv.conf
 And add 2 new lines:
-    nameserver 1.1.1.1
-    nameserver 1.0.0.1
+    $ nameserver 1.1.1.1
+    $ nameserver 1.0.0.1
 restart mysterium and it will be fine
